@@ -1,0 +1,21 @@
+\begin{Large}
+\centertext{Abstract}
+\end{Large}
+Programming  is  the  way  through  which  we  talk  to  computers  and  computer  replies with an output. This
+output  can  be  in  textual  form  or  graphical  form.  Humans are attached to the visual content more than he
+is  attached  to  textual  content.  This  is  the  reason  that  desktops  have  moved  from  Command  Line
+Interface  to  Graphical  User  Interface.  There's  a  lot  of  programming  and  brain  involved  behind  getting
+these  graphics  on  screen.\\\\
+I,  with  curiosity  of  knowing  the  process  and  hence  learning  the  same.  There
+are many programming languages out there, which can be used for the  process.  I choose one of the most
+trusted  and  used  language  C++.  C++  is  a  Object  Oriented  Programming  language  and  working  on  it
+enhanced  my  general  knowledge  about  programming  and  programming  language.  As   writers  tend  to
+read  a  lot,  singers  tend  to  listen  to music a lot a good programmer reads code a lot. This basic necessity
+of  every  programmer  is  fulfilled  by treasure of open source softwares which provide the source for us to
+read,  understand  and  learn  from  the  source.  Open  source  softwares  are  like  a  luxurious  gift  for anyone
+who wants to learn programming.\\\\
+‘Converter for CAD and FEM’ This Project was started with the goal to make a converter to convert the files of two different platform dependent softwares i.e Windows and Unix, which was needed by the civil engineers for the "Finite Element Analysis" and also can be embedded in CAD softwares. Also, the parser for DXF file format has been developed which converts the text file into the Dxf file format, which is very frequently used in various major CAD ssoftwares like AutoCAD, SolidWorks, BRL-CAD, FreeCAD, OpenScad, etc. For the better understanding of the working and flow of parser by developing dummy parsers for some dummy file formats like ecad and xcad, and gd and gne.\\\\
+The motive of the project is to reduce the time consumed and to enable fast and easy
+customization and even faster modifications when required as instead of typing and scal-
+ing, only values in the php script need to be changed.
+

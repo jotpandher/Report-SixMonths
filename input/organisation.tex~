@@ -1,0 +1,153 @@
+\image{0.7}{images/gndec.jpg}{Guru Nanak Dev Engineering College}
+\hspace{-1.7em} I had my Six Months Industrial Training at TCC-Testing And Consultancy Cell, GNDEC Ludhiana. Guru Nanak Dev Engineering College was established by the Nankana
+Sahib Education Trust Ludhiana. The Nankana Sahib Education Trust i.e NSET
+was founded in memory of the most sacred temple of Sri Nankana Sahib, birth place
+of Sri Guru Nanak Dev Ji. With the mission of Removal of Economic Backwardness
+through Technology Shiromani Gurudwara Parbandhak Committee i.e SGPC started a
+Poly technical was started in 1953 and Guru Nanak Dev Engineering College was established in 1956.\\\\
+NSET resolved to uplift Rural areas by admitting 70\% 
+of students from these rural
+areas ever year. This commitment was made to nation on 8th April, 1956, the day
+foundation stone of the college building was laid by Dr. Rajendra Prasad Ji, the First
+President of India. The College is now ISO 9001:2000 certified.\\\\
+Guru Nanak Dev Engineering College campus is spread over 88 acres of prime land
+about 5 Km s from Bus Stand and 8 Km s from Ludhiana Railway Station on Ludhiana-Malerkotla Road. The college campus is well planned with beautifully laid out tree plantation, pathways, flowerbeds besides the well maintained sprawling lawns all around. It
+has beautiful building for College,Hostels,Swimming Pool,Sports and Gymnasium Hall
+Complex, Gurudwara Sahib, Bank, Dispensary, Post Office etc. There are two hostels
+for boys and one for girls with total accommodation of about 550 students. The main
+goal of this institute is:\\\\
+\begin{itemize}
+\item To build and promote teams of experts in the upcoming specialisations.
+\item To promote quality research and undertake research projects keeping in view their
+relevance to needs and requirements of technology in local industry.
+\item To achieve total financial independence.
+\item To start online transfer of knowledge in appropriate technology by means of establishing multipurpose resource centres.
+\end{itemize}
+\subsection{Testing and Consutancy Cell}
+My Six Weeks Institutional Training was done by me at TCC i.e Testing And
+Consultancy Cell,
+GNDEC Ludhiana under the guidance of Dr. H.S.Rai Dean Testing and Consultancy Cell.
+Testing and Consultancy Cell was established in the year 1979 with a basic aim to produce
+quality service for technical problems at reasonable and affordable rates as a service to society
+in general and Engineering fraternity in particular.\\
+\image{0.9}{images/aw.jpg}{Testing and Consultancy Cell}
+\hspace{-1.7em} Consultancy Services are being rendered by various Departments of the College to the
+industry, Sate Government Departments and Entrepreneurs and are extended in the form of
+expert advice in design, testing of materials \& equipment, technical surveys, technical audit,
+calibration of instruments, preparation of technical feasibility reports etc.
+This consultancy cell of the college has given a new dimension to the development
+programmers of the College. Consultancy projects of over Rs. one crore are completed by the
+Consultancy cell during financial year 2009-10. \\
+Ours is a pioneer institute providing Consultancy Services in the States of Punjab, Haryana,
+Himachal, J\&K and Rajasthan. Various Major Clients of the Consultancy Cell are as under:\\
+\begin{itemize}
+\item Larson \& Turbo.
+\item Multi National Companies like AFCON \& PAULINGS.
+\item Power Grid Corporation of India.
+\item National Building Construction Co.
+\item Punjab State Electricity Board.
+\item Punjab Mandi Board.
+\item Punjab Police Housing Corporation.
+\item National Fertilizers Ltd.
+\end{itemize}
+
+\subsection{Introduction to Project}
+‘Converter for CAD and FEM’ This Project was started with the goal to make a converter to convert the files of two different platform dependent softwares i.e Windows and Unix, which was needed by the civil engineers for the Finite Element Analysis and also can be embedded in CAD softwares. Also, the parser for DXF file format has been developed which converts the text file into the Dxf file format, which is very frequently used in various major CAD ssoftwares like AutoCAD, SolidWorks, BRL-CAD, FreeCAD, OpenScad, etc. For the better understanding of the working and flow of parser by developing dummy parsers for some dummy file formats like ecad and xcad, and gd and gne.\\
+Various tools used to develop the project are:\\
+\begin{itemize}
+\item GCC Compiler
+\item Flex/lex
+\item Bison/yacc
+\item DXF file format
+\item C++
+\item C language
+\end{itemize}
+\textbf{GCC Compiler:}\\\\
+A compiler is a software program which converts the code written in any programming language i.e high-level language into a low-level language code.A compiler is a translator whose source language is a high-level language and whose object language is close to the machine language of an actual computer.The typical compiler consists of several phases each of which passes its output to the next phase\\\\
+\textbf{Phases of Compiler:}
+\begin{itemize}
+\item Lexical analysis: The lexical phase (scanner) groups characters into lexical units or tokens. The input to the lexical phase is a character stream. The output is a stream of tokens. Regular expressions are used to define the tokens recognized by a scanner (or lexical analyzer). The scanner is implemented as a finite state machine. Lex and Flex are tools for generating scanners: programs which recognize lexical patterns in text. Flex is a faster version of Lex.
+\item Syntax analysis: The parser groups tokens into syntactical units. The output of the parser is a parse tree representation of the program. Context-free grammars are used to define the program structure recognized by a parser. The parser is implemented as a push-down automata.
+\item Semantic analysis: The semantic analysis phase analyzes the parse tree for context-sensitive information often called the static semantics. The output of the semantic analysis phase is an annotated parse tree. Attribute grammars are used to describe the static semantics of a program.
+\item Intermediate Code Generation: This phase is often combined with the parser. During the parse, information concerning variables and other objects is stored in a symbol table. The information is utilized to perform the context-sensitive checking.
+\item Code optimization: The optimizer applies semantics preserving transformations to the annotated parse tree to simplify the structure of the tree and to facilitate the generation of more efficient code.
+\item Code generation: The code generator transforms the simplified annotated parse tree into object code using rules which denote the semantics of the source language. The code generator may be integrated with the parser.
+\end{itemize}
+\textbf{Parser:}\\\\
+Parsing or syntactic analysis is the process of analysing a string of symbols, either in natural language or in computer languages, according to the rules of a formal grammar.A parser is a program which determines if its input is syntactically valid and determines its structure. Parsers may be hand written or may be automatically generated by a parser generator from descriptions of valid syntactical structures. The descriptions are in the form of a context-free grammar.Yacc is a program which given a context-free grammar, constructs a C program which will parse input according to the grammar rules.\\
+Parser invented by Donald Knuth in 1965. Parser breaks data into smaller elements for easy translation into another language. A parser takes input in the form of a sequence of tokens and usually builds a data structure in the form of a parse tree or an abstract syntax tree.\\\\
+
+\textbf{Flex:}\\\\
+The fast lexical analyser. It is the modern replacement for the classic Lex, which was developed by the Bell Laboratories in the 1970s.
+Flex was originally written by Jef Poskanzer; Vern Paxson and Van Jacobson have considerably improved it. Flex is a tool for generating scanners. A scanner, sometimes called a tokenizer, is a program which recognizes lexical patterns in text. The flex program reads user-specified input files, for a description of a scanner to generate. The description is in the form of pairs of regular expressions and C code, called rules. Flex generates a C source file named, "lex.yy.c", which defines the function yylex(). The file "lex.yy.c" can be compiled and linked to produce an executable. When the executable is run, it analyzes its input for occurrences of text matching the regular expressions for each rule. Whenever it finds a match, it executes the corresponding C code.Flex and Bison files have three sections:\\
+\begin{itemize}
+\item The first is sort of "control" information
+\item The second is the actual token/grammar definitions
+\item The last is C/C++ code to be copied verbatim to the output
+\end{itemize}
+
+\textbf{Bison:}\\\\
+Yacc and Bison are tools for generating parsers: programs which recognize the structure grammatical structure of programs. Bison is a faster version of Yacc. Bison was originally written by Robert Corbett in 1988.The sections on Yacc/Bison are a condensation and extension of the document “BISON the Yacc-compatible Parser Generator” by Charles Donnelly and Richard Stallman. Like Flex, Bison file is also divided into three sections divided by \%\%. Bison reads a specification of the user-specified grammar, warns about any parsing ambiguities, and generates a parser (either in C, C++, or Java) which reads sequences of tokens and decides whether the sequence conforms to the syntax specified by the grammar.A input file for Bison is of the form:
+\begin{itemize}
+\item C and parser declarations
+\item \%\%
+\item Grammar rules and actions
+\item \%\%
+\item C subroutines
+\end{itemize}
+\textbf{DXF File Format}\\\\
+DXF stands for Drawing Exchange Format. Files that contain the .dxf file extension contain CAD vector image files. The DXF file format is similar to the DWG file format, but DXF files are ASCII based and are therefore more compatible with other computer applications.\\
+The DXF file format was developed as an exchange format for the CAD files that are created by computer aided drafting software applications. The file format was initially introduced in December of 1982 as a part of AutoCAD 1.0. The file format was meant to provide an exact representation of the data in the standard AutoCAD file format.\\\\
+
+\subsection{Software requirements}
+\begin{itemize}
+\item Operating System: Linux/Windows
+\item Programming Language: C, C++
+\end{itemize}
+
+\subsection{Project Category}
+‘Converter for CAD and FEM’ This Project was started with the goal to make a converter to convert the files of two different platform dependent softwares i.e Windows and Unix, which was needed by the civil engineers for the Finite Element Analysis and also can be embedded in CAD softwares. Also, the parser for DXF file format has been developed which converts the text file into the Dxf file format, which is very frequently used in various major CAD ssoftwares like AutoCAD, SolidWorks, BRL-CAD, FreeCAD, OpenScad, etc. For the better understanding of the working and flow of parser by developing dummy parsers for some dummy file formats like ecad and xcad, and gd and gne.\\\\
+\textbf{What is Internet based Application?}\\\\
+A Internet based application is any software that runs in a web browser. It is created
+in a browser-supported programming language (such as the combination of JavaScript,
+HTML and CSS) and relies on a web browser to render the application.
+Web applications are popular due to the ubiquity of web browsers, and the convenience
+of using a web browser as a client, sometimes called a thin client. The ability to update
+and maintain web applications without distributing and installing software on potentially
+thousands of client computers is a key reason for their popularity, as is the inherent sup-
+port for cross-platform compatibility.
+\textbf{What is Industry automation?}\\\\
+Industrial automation is the use of control systems, such as computers or robots, and
+information technologies for handling different processes and machineries in an industry
+to replace a human being. It is the second step beyond mechanization in the scope of
+industrialization.
+\subsection{Objectives}
+At present, no such software exists which convert the file format of
+STAAD-PRO and FELT softwares. Both of these are FEM softwares which
+are used by the Civil Engineers for the purpose of Finite Element
+Analysis. As both of these softwares run on different platforms, the
+users feel difficulty to analyze the output files of both the
+softwares together. This encouraged us to develop such a software
+which will be very useful to the users. With objective to develop the
+software which can easily convert the two file formats into each other
+and can gather the information of both the softwares, which is of
+great use for the civil engineers.\\
+
+
+\subsection{Problem Formulation and Reorganization of Need}
+
+
+
+\subsection{Existing System}
+The STAAD-PRO and FELT are both the FEM softwares which are based on
+different platforms. So users have to switch between the Operating
+Systems to analyze the files created by both the softwares. As there
+is no such software which can read both the files and convert into
+each others. Both the softwares are of great use of Civil Engineers.
+So a new software has been developed to ease the Finite Element
+Analysis of the Civil Engineers.\\\\
+
+\subsection{Proposed System}
+
+
+\subsection{Unique Features of the System}

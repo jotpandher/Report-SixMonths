@@ -1,0 +1,32 @@
+\subsection{Conclusion}
+Yaadein is an very efficient application which help in generating booklet for pass out student. It can be used 
+by schools, colleges, universities, etc. It is
+less time consuming and user friendly. It has been successfully used
+in our college.
+
+\newpage
+\subsection{Current status}
+
+Yaadein is web based application. It will generate booklet passing through various stages:
+
+\begin{itemize}
+\item Web based user Interface for filling user-name, room, roll no, address, comments etc.\.
+\item Data retrieved by using php connextivity with database.
+\item Typesetting of pages usinf \LaTeX{}.
+\item Imposition of pages using \LaTeX{}.
+\item Color seperation i.e RGB to CMYK.
+\end{itemize}
+
+\newpage 
+\subsection{Future Scope}
+
+BaKaPlan is the only one software which generate seating plan
+automatically. It has great scope in future. I will add more
+streategies in BaKaPlan. I will also add following modules: 
+\begin{itemize}
+\item Feature to send SMS to students about their seat location before
+examination.
+\item Add another database like postgreSQL in BaKaPlan to increase its
+productivity.
+\item Also create deb package to ease installation steps.
+\end{itemize}

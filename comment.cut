@@ -1,0 +1,31 @@
+\usepackage{lastpage}
+\usepackage{macro/macro}
+
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\lhead{Converter for FEM and CAD }
+
+\usepackage[left=3.5cm, right=1.5cm, top=2.5cm, bottom=1.5cm]{geometry}
+
+\makeatletter
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+\def\@makeschapterhead#1{%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 40\p@
+  }}
+\makeatother
+
+%\pagestyle{fancy}

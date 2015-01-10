@@ -1,0 +1,116 @@
+\documentclass[12pt]{report}
+\usepackage[print,nopanel]{pdfscreen}
+\begin{print}
+\usepackage{lastpage}
+\usepackage{macro/macro}
+
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\lhead{Converter for FEM and CAD }
+
+\usepackage[left=3.5cm, right=1.5cm, top=2.5cm, bottom=1.5cm]{geometry}
+ 
+\makeatletter
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+\def\@makeschapterhead#1{%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 40\p@
+  }}
+\makeatother
+
+%\pagestyle{fancy}
+\end{print}
+%\margins{.5cm}{.5cm}{.5cm}{.5cm}
+\begin{screen}
+
+\renewcommand{\encodingdefault}{T1}
+\usepackage{setspace}
+\linespread{1.5}
+\renewcommand{\rmdefault}{ptm}
+\end{screen}
+\screensize{8cm}{9cm}
+\overlay{overlay8.pdf}
+\usepackage{graphicx}
+
+\begin{document}
+\input{input/titlepage.tex}
+\begin{screen}
+\ppttitle
+\end{screen}
+\footskip 0.7cm
+\thispagestyle{empty} 
+\pagetitle
+\newpage
+\pagenumbering{Roman}
+\cfoot{\thepage}
+
+\input{input/whomayiconcern.tex}
+\newpage
+\input{input/Acknowledgement.tex}
+\newpage
+\input{input/abstract.tex}
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\pagenumbering{arabic}
+\cfoot{\thepage}
+
+\newpage
+\chapter{Introduction To Organisation}
+\input{input/organisation.tex}
+%\newpage
+%\chapter{Introduction}
+%\input{input/Introduction.tex}
+\newpage
+\chapter{Requirement Analysis and Specification}
+\input{input/django.tex}
+\newpage
+\chapter{System Design}
+\input{input/python.tex}
+\newpage
+\chapter{Implementation ,Testing and Maintenance}
+\input{input/latex.tex}
+\newpage
+\chapter{Results and Discussions}
+\input{input/php.tex}
+\newpage
+\chapter{Conclusion and Future Scope }
+\input{input/mysql.tex}
+%\newpage
+%\chapter{Project Work}
+%\input{input/project.tex}
+%\newpage
+%\chapter{Results and Discussions}
+%\input{input/result.tex}
+%\newpage
+%\chapter{Conclusion and Future Scope}
+%\input{input/scope.tex}
+%\newpage
+%\chapter{Coding}
+%\input{input/code.tex}
+\newpage
+%\chapter{Bibliography}
+\input{input/bibliography.tex}
+%\begin{screen}
+%\newpage
+%\input{input/link.tex}
+%\end{screen}
+
+\end{document}
